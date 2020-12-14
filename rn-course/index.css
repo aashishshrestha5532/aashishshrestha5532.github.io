@@ -5,6 +5,7 @@
 }
 
 body {
+  width: 100%;
   background: rgb(14, 14, 15);
   background: -moz-linear-gradient(
     90deg,
