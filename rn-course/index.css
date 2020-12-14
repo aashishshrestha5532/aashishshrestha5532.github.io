@@ -5,38 +5,35 @@
 }
 
 body {
-  background: rgb(197, 197, 212);
+  background: rgb(14, 14, 15);
   background: -moz-linear-gradient(
     90deg,
-    rgba(197, 197, 212, 1) 0%,
     rgba(14, 14, 15, 1) 0%,
-    rgba(58, 59, 61, 1) 55%,
+    rgba(81, 84, 86, 1) 100%,
     rgba(126, 130, 134, 1) 100%,
-    rgba(104, 106, 108, 1) 100%,
+    rgba(44, 46, 48, 1) 100%,
     rgba(177, 182, 184, 1) 100%,
-    rgba(0, 212, 255, 1) 100%
+    rgba(15, 16, 17, 1) 100%
   );
   background: -webkit-linear-gradient(
     90deg,
-    rgba(197, 197, 212, 1) 0%,
     rgba(14, 14, 15, 1) 0%,
-    rgba(58, 59, 61, 1) 55%,
+    rgba(81, 84, 86, 1) 100%,
     rgba(126, 130, 134, 1) 100%,
-    rgba(104, 106, 108, 1) 100%,
+    rgba(44, 46, 48, 1) 100%,
     rgba(177, 182, 184, 1) 100%,
-    rgba(0, 212, 255, 1) 100%
+    rgba(15, 16, 17, 1) 100%
   );
   background: linear-gradient(
     90deg,
-    rgba(197, 197, 212, 1) 0%,
     rgba(14, 14, 15, 1) 0%,
-    rgba(58, 59, 61, 1) 55%,
+    rgba(81, 84, 86, 1) 100%,
     rgba(126, 130, 134, 1) 100%,
-    rgba(104, 106, 108, 1) 100%,
+    rgba(44, 46, 48, 1) 100%,
     rgba(177, 182, 184, 1) 100%,
-    rgba(0, 212, 255, 1) 100%
+    rgba(15, 16, 17, 1) 100%
   );
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#c5c5d4",endColorstr="#00d4ff",GradientType=1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0e0e0f",endColorstr="#0f1011",GradientType=1);
   min-height: 100vh;
 }
 
@@ -72,4 +69,57 @@ h5 {
 
 section {
   padding: 0px 8vw;
+}
+
+.react-icon {
+  height: 80px;
+  margin-left: 10px;
+  -webkit-animation: spin 4s linear infinite;
+  -moz-animation: spin 4s linear infinite;
+  animation: spin 4s linear infinite;
+}
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+/* author */
+
+.author_profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.author_image {
+  height: 120px;
+  border-radius: 50%;
+  object-fit: contain;
+  margin-left: 1%;
+}
+
+.author_info {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.author_info > a {
+  text-decoration: none;
+}
+
+.course_time > label {
+  font-size: 18px;
+  font-weight: 300;
 }
