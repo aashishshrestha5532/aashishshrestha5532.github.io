@@ -67,6 +67,11 @@ h5 {
   padding: 5px;
 }
 
+@media screen and (max-width: 500px) {
+  .info-list > li {
+    line-height: 40px;
+  }
+}
 section {
   padding: 0px 8vw;
 }
