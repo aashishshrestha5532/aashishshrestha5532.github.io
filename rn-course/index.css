@@ -68,31 +68,6 @@ h5 {
   padding: 5px;
 }
 
-@media screen and (max-width: 500px) {
-  .info-list > li {
-    line-height: 40px;
-  }
-
-  h1 {
-    font-size: 40px;
-  }
-
-  h2 {
-    font-size: 35px;
-  }
-
-  h3 {
-    font-size: 30px;
-  }
-
-  h4 {
-    font-size: 25px;
-  }
-
-  h5 {
-    font-size: 20px;
-  }
-}
 section {
   padding: 0px 8vw;
 }
@@ -133,7 +108,7 @@ section {
   height: 120px;
   border-radius: 50%;
   object-fit: contain;
-  margin-left: 1%;
+  margin-left: 3%;
 }
 
 .author_info {
@@ -148,4 +123,34 @@ section {
 .course_time > label {
   font-size: 18px;
   font-weight: 300;
+}
+
+@media screen and (max-width: 500px) {
+  .info-list > li {
+    line-height: 40px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+  h4 {
+    font-size: 25px;
+  }
+
+  h5 {
+    font-size: 20px;
+  }
+
+  .author_image {
+    height: 80px;
+  }
 }
