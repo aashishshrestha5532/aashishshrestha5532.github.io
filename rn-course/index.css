@@ -1,0 +1,75 @@
+* {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: white;
+}
+
+body {
+  background: rgb(197, 197, 212);
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(197, 197, 212, 1) 0%,
+    rgba(14, 14, 15, 1) 0%,
+    rgba(58, 59, 61, 1) 55%,
+    rgba(126, 130, 134, 1) 100%,
+    rgba(104, 106, 108, 1) 100%,
+    rgba(177, 182, 184, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(197, 197, 212, 1) 0%,
+    rgba(14, 14, 15, 1) 0%,
+    rgba(58, 59, 61, 1) 55%,
+    rgba(126, 130, 134, 1) 100%,
+    rgba(104, 106, 108, 1) 100%,
+    rgba(177, 182, 184, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(197, 197, 212, 1) 0%,
+    rgba(14, 14, 15, 1) 0%,
+    rgba(58, 59, 61, 1) 55%,
+    rgba(126, 130, 134, 1) 100%,
+    rgba(104, 106, 108, 1) 100%,
+    rgba(177, 182, 184, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#c5c5d4",endColorstr="#00d4ff",GradientType=1);
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3.5rem;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+h4 {
+  font-size: 2.5rem;
+}
+
+h5 {
+  font-size: 2rem;
+}
+
+.title {
+}
+
+.info-list > li {
+  font-size: 18px;
+  line-height: 24px;
+  word-spacing: 1.05px;
+  padding: 5px;
+}
+
+section {
+  padding: 0px 8vw;
+}
